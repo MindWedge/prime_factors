@@ -12,5 +12,9 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate_prime_factors(60.5)
 
+    #2nd Test Case
+    def test_step2(self):
+        self.assertEqual(generate_prime_factors(1),[])
+
 if __name__ == '__main__':
     unittest.main()
