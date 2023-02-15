@@ -31,6 +31,10 @@ class TestStringMethods(unittest.TestCase):
     #6th Test Case
     def test_step6(self):
         self.assertEqual(generate_prime_factors(6),[2,3]) 
+    
+    #7th Test Case
+    def test_step7(self):
+        self.assertEqual(generate_prime_factors(8),[2,2,2])
 
 if __name__ == '__main__':
     unittest.main()
