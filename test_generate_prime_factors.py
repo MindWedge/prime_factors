@@ -20,5 +20,10 @@ class TestStringMethods(unittest.TestCase):
     def test_step3(self):
         self.assertEqual(generate_prime_factors(2),[2])
 
+    #4th Test Case
+    def test_step4(self):
+        self.assertEqual(generate_prime_factors(3),[3])
+
+
 if __name__ == '__main__':
     unittest.main()
