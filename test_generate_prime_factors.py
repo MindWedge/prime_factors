@@ -3,9 +3,8 @@
 The test module for Prime Factors
 """
 
-
 import unittest
-from ..prime import generate_prime_factors
+from prime import generate_prime_factors
 class TestStringMethods(unittest.TestCase):
 
     #First Test Case
